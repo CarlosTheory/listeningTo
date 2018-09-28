@@ -1,0 +1,5 @@
+<h4 class="text-center" *ngIf="pasarCancion">Canciones</h4>
+<ul class="list-group" *ngFor="let canciones of pasarCancion.songs; let posCancion = index">
+	<li type="button" class="list-group-item btn btn-default" (click)="cancionSeleccionada(posCancion)">{{canciones?.title}}</li>
+</ul>
+

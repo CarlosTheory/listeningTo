@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.container-fluid {
+	display: flex;
+	height: 98%;
+}
+
+.welcome {
+	font-family: 'Raleway', 'sans-serif';
+	background-image: url('../../assets/login/hear-music.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	box-shadow:inset px 1px 2px 3px #000000;
+}
+
+.welcome-item {
+	margin-top: 60%;
+}
+
+.login {
+	padding-top: 10%;
+	font-family: 'Raleway', 'sans-serif';
+}
+
+footer{
+	width: 100%;
+	bottom: 0;
+}
+
+footer{
+	margin-top: 4px;
+}
+
+.entrar {
+	margin: 0 auto; 
+}

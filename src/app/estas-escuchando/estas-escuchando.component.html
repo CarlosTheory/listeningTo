@@ -1,0 +1,6 @@
+<div class="card text-center" *ngIf='nombreArtista && mostrarCancion && nombreAlbum'>
+	<div class="card-body">
+	    <h5 class="card-title"><fa name="headphones"></fa> <small> Escuchando: </small>{{nombreArtista.artist}} - {{mostrarCancion.title}}</h5>
+	    <p class="card-text">del Album: <b>{{nombreAlbum.name}}</b></p>
+  	</div>
+</div>
